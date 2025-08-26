@@ -20,7 +20,7 @@ class PortfolioApp extends StatelessWidget {
       child: Consumer<ThemeProvider>(
         builder: (context, themeProvider, _) {
           return MaterialApp(
-            title: 'Muhammad Adeel · Flutter Developer',
+            title: 'Muhammad Adeel - Flutter Developer',
             debugShowCheckedModeBanner: false,
             theme: AppTheme.buildTheme(Brightness.light,
                 textTheme: GoogleFonts.poppinsTextTheme()),
